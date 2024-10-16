@@ -8,3 +8,7 @@
 6. **images**: object-fit:cover, to resize image proportionally
 7. **video and audio**: controls artribute with audio and video
 8. **list**: ol,dl,dt,dd, (ol>dl\*3)
+9. **table**: table, tr , td, (style in css) table-border there are 3 types of border value-
+ 1-thickness of border
+ 2-style of border
+ 3- colour of border,thead, tbody, inside body add footer(tfoot)

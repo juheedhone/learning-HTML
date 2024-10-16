@@ -4,12 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style></style>
+    <style>
+      table, td, th{
+        border:1px solid black;
+        border-collapse: collapse;
+padding: 5px; 
+
+    
+      }
+      tfoot{
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <dl>HTML</dl>
-    <dt>hyper</dt>
-    <dl>CSS</dl>
-    <dt>casacading</dt>
+    <table>
+      <thead>
+      <th colspan="2">expenses</th>
+      </thead>
+      <tr>
+        <th>catagory</th>
+        <th>amount</th>
+      </tr>
+      <tr>
+        <td>marketing</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>accounting</td>
+        <td>$200</td>
+      </tr>
+      <tbody>
+        <tfoot>
+          <tr>
+            <th>total</th>
+            <th>$300</th>
+          </tr>
+        </tfoot>
+      </tbody>
+    </table>
   </body>
 </html>
