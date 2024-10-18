@@ -12,3 +12,4 @@
  1-thickness of border
  2-style of border
  3- colour of border,thead, tbody, inside body add footer(tfoot)
+10. semantic elements: article, figure, mark, time
