@@ -13,3 +13,4 @@
  2-style of border
  3- colour of border,thead, tbody, inside body add footer(tfoot)
 10. semantic elements: article, figure, mark, time
+11. **basic selectors**: type, class, id, attribute
