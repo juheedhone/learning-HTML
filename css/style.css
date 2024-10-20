@@ -2,12 +2,8 @@ body {
   margin: 10px;
 }
 
-p {
+
+
+#product > p {
   color: orange;
 }
-
-a[href$=".com"] {
-  color: red;
-}
-
-

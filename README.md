@@ -14,3 +14,4 @@
  3- colour of border,thead, tbody, inside body add footer(tfoot)
 10. semantic elements: article, figure, mark, time
 11. **basic selectors**: type, class, id, attribute
+12. **relationship selectors**: descendant, child(>), adjacent sibling(+), general sibling(~)
