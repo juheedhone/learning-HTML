@@ -2,10 +2,25 @@ body {
   margin: 10px;
 }
 
-ul li:nth-child(odd) {
-  color: deeppink;
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
 }
 
-a:visited {
-  color: dodgerblue;
+p::first-line {
+  font-weight: bold;
+}
+
+p::selection {
+  background-color: pink;
+}
+
+p::before {
+  content: "start";
+  display: block;
+}
+
+p::after {
+  content: "end";
+  display: block;
 }
