@@ -2,8 +2,10 @@ body {
   margin: 10px;
 }
 
+ul li:nth-child(odd) {
+  color: deeppink;
+}
 
-
-#product > p {
-  color: orange;
+a:visited {
+  color: dodgerblue;
 }
