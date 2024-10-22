@@ -1,26 +1,7 @@
-body {
-  margin: 10px;
+h1 {
+  color: red;
 }
 
-p::first-letter {
-  font-size: 140%;
-  font-weight: bold;
-}
-
-p::first-line {
-  font-weight: bold;
-}
-
-p::selection {
-  background-color: pink;
-}
-
-p::before {
-  content: "start";
-  display: block;
-}
-
-p::after {
-  content: "end";
-  display: block;
+.highlight {
+  color: blue;
 }

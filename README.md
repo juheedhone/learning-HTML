@@ -17,3 +17,4 @@
 12. **relationship selectors**: descendant, child(>), adjacent sibling(+), general sibling(~)
 13. **pseudo-classes**: :hover, :active, :focus, :first-child, :last-child, :nth-child(), :nth-of-type()
 14. **pseudo-elements**: ::before, ::after, ::first-line, ::first-letter, ::selection, ::display 
+15. **selectors specificity**: id>class>type
