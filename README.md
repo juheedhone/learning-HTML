@@ -19,3 +19,4 @@
 14. **pseudo-elements**: ::before, ::after, ::first-line, ::first-letter, ::selection, ::display 
 15. **selectors specificity**: id>class>type
 16. **color**: rgb, rgba, hsl, hsla, hex, named (removed degree from hsl)
+**gradient**: linear-gradient, radial-gradient
