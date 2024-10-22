@@ -18,3 +18,4 @@
 13. **pseudo-classes**: :hover, :active, :focus, :first-child, :last-child, :nth-child(), :nth-of-type()
 14. **pseudo-elements**: ::before, ::after, ::first-line, ::first-letter, ::selection, ::display 
 15. **selectors specificity**: id>class>type
+16. **color**: rgb, rgba, hsl, hsla, hex, named (removed degree from hsl)
