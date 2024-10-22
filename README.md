@@ -9,14 +9,15 @@
 7. **video and audio**: controls artribute with audio and video
 8. **list**: ol,dl,dt,dd, (ol>dl\*3)
 9. **table**: table, tr , td, (style in css) table-border there are 3 types of border value-
- 1-thickness of border
- 2-style of border
- 3- colour of border,thead, tbody, inside body add footer(tfoot)
+   1-thickness of border
+   2-style of border
+   3- colour of border,thead, tbody, inside body add footer(tfoot)
 10. semantic elements: article, figure, mark, time
 11. **basic selectors**: type, class, id, attribute
 12. **relationship selectors**: descendant, child(>), adjacent sibling(+), general sibling(~)
 13. **pseudo-classes**: :hover, :active, :focus, :first-child, :last-child, :nth-child(), :nth-of-type()
-14. **pseudo-elements**: ::before, ::after, ::first-line, ::first-letter, ::selection, ::display 
+14. **pseudo-elements**: ::before, ::after, ::first-line, ::first-letter, ::selection, ::display
 15. **selectors specificity**: id>class>type
 16. **color**: rgb, rgba, hsl, hsla, hex, named (removed degree from hsl)
-**gradient**: linear-gradient, radial-gradient
+    **gradient**: linear-gradient, radial-gradient
+**shadow**: text-shadow, box-shadow
