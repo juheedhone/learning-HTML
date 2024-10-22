@@ -1,7 +1,9 @@
-h1 {
+p {
   color: red;
+  border: 1px solid black;
 }
 
-.highlight {
+strong {
   color: blue;
+  border: inherit;
 }
