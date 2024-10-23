@@ -1,7 +1,32 @@
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: hsla(130, 54%, 43%);
-  box-shadow: 10px 10px red;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+table {
+  border-collapse: collapse;
+  width: 10%;
+}
+
+tfoot {
+  text-align: left;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+thead {
+  background-color: #427fef;
+  color: white;
+}
+
+tfoot {
+  background-color: #427fef;
+  color: white;
+}
+
+tbody,
+tr {
+  border-bottom: 1px solid #c4dcf3;
+}
+
+td,
+th {
+  padding: 10px;
 }
