@@ -1,20 +1,6 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-.body {
-  margin: 10px;
-}
-
-.box::before {
-  content: "hello";
-}
-
 .box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: inline-block;
+  border: 10px solid red;
+  width: 150px;
+  height: 150px;
+  overflow: auto;
 }
