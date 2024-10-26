@@ -1,25 +1,23 @@
-html {
-  font-size: 62.5%;
+.boxes {
+  border: 3px solid lightgrey;
 }
-
-body {
-  /* margin: 10px; */
-  /* width: 300px; */
-}
-
-/* .box {
-  /* 50% of the width of the parent */
-/* width: 50%;
-  height: 100vh;
-  background-color: red;
-  border-top: 10px solid black;
-} */
 
 .box {
-  /* 10 x font size of the current element (16px)*/
+  width: 5rem;
+  height: 5rem;
+}
 
-  width: 15rem;
-  height: 100vh;
-  background-color: red;
-  border-top: 10px solid black;
+.box-one {
+  background-color: rebeccapurple;
+}
+.box-two {
+  background-color: lightcoral;
+  position: relative;
+  left: 5rem;
+  top: 2rem;
+  z-index: 1;
+}
+
+.box-three {
+  background-color: darkcyan;
 }
