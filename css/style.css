@@ -1,23 +1,23 @@
-.boxes {
+.container {
   border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
 }
 
 .box {
+  flex-basis: 10rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex: 1 1 10rem;
   width: 5rem;
   height: 5rem;
+  background-color: brown;
+  margin: 1rem;
 }
 
 .box-one {
-  background-color: rebeccapurple;
-}
-.box-two {
-  background-color: lightcoral;
-  position: relative;
-  left: 5rem;
-  top: 2rem;
-  z-index: 1;
-}
-
-.box-three {
-  background-color: darkcyan;
+  flex-basis: 5rem;
 }

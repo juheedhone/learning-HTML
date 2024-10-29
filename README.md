@@ -20,5 +20,6 @@
 15. **selectors specificity**: id>class>type
 16. **color**: rgb, rgba, hsl, hsla, hex, named (removed degree from hsl)
     **gradient**: linear-gradient, radial-gradient
-**shadow**: text-shadow, box-shadow
-**measurements**: px, em, rem, %, vw, vh, vmin, vmax
+    **shadow**: text-shadow, box-shadow
+    **measurements**: px, em, rem, %, vw, vh, vmin, vmax
+    **positioning**: static, relative, absolute, fixed, sticky
