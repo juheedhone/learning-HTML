@@ -3,67 +3,28 @@ html {
 }
 
 body {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 2rem;
+  background: #2a2138;
 }
 
-.container {
-  background: url(../images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg) no-repeat;
+.icon {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.items {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
+  gap: 1rem;
+}
+.items:hover{
+  background-color: #221a2e;
 }
 
-h1 {
-  font-weight: 900;
-  font-size: 5rem;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  word-spacing: 1.5rem;
-  text-shadow: 2px 2px 0 #000;
-}
-
-p {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-weight: 300;
-  font-size: 2rem;
-  padding: 1.5rem;
-  letter-spacing: 1.5px;
-}
-
-@media screen and (max-width: 1228px) {
-  .container {
-    background: url(/images/jeremy-thomas-E0AHdsENmDg-unsplash_xhehr9_c_scale\,w_1381.jpg)
-      no-repeat;
-    background-size: cover;
-  }
-}
-@media screen and (max-width: 853px) {
-  .container {
-    background: url(/images/jeremy-thomas-E0AHdsENmDg-unsplash_xhehr9_c_scale\,w_918.jpg)
-      no-repeat;
-    background-size: cover;
-  }
-  p {
-    font-size: 1rem;
-  }
-  h1 {
-    font-size: 3rem;
-  }
-}
-@media screen and (max-width: 320px) {
-  .container {
-    background: url(/images/jeremy-thomas-E0AHdsENmDg-unsplash_xhehr9_c_scale\,w_320.jpg)
-      no-repeat;
-    background-size: cover;
-  }
-  p {
-    font-size: 0.5rem;
-  }
-  h1 {
-    font-size: 1.5rem;
+@media screen and (max-width: 750px) {
+  body {
+    width: 20%;
+    height: 100vh;
   }
 }
